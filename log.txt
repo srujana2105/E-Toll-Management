@@ -1,0 +1,7 @@
+create table log
+(
+tid number(3),
+vid varchar2(10),
+time timestamp,
+CONSTRAINT pass_fk FOREIGN KEY (tid) REFERENCES tollgate(tid)
+);

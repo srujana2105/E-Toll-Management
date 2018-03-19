@@ -1,0 +1,146 @@
+div{
+    text-align: center;
+}
+#marque{
+color: rgb(100,150,10);
+font-weight: 100;
+    font-size: 30px;
+    font-family: bold;
+}
+#header{
+    background-color: aqua;
+    height:125px;
+    //align-content: center;
+    //align-self: center;
+    width: 400px;
+}
+/*#btn2{
+    width: 150px;
+    text-align: center;
+    padding: 6px;
+}*/
+#current_passes{
+    background-color: aquamarine;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: none;
+    }
+#btn3 div{
+    margin-left: 125px;
+    text-align: center;
+    width: 150px;
+}
+#btn1,#btn2{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 150px;
+    text-align: center;
+    color: rgba(250,10,10,0.5);
+    font-weight: bold;
+    background-color: rgba(120,45,80,0.5);
+border-radius: 10px;
+    padding: 5px;
+}
+.featured .btn-default{
+    width: auto;
+    height: 25px;
+    background-color: rgba(120,45,80,0.5);
+    color: rgba(10,10,100,0.5);
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-right: 15px;
+    
+}
+body{
+    margin: 20px;
+    background-color: rgba(120,100,200,0.3)
+}
+.container{
+//background-color: rgba(120,100,200,0.5);
+    border: 10px,10px,10px,10px;
+    height: ;
+}
+.featured #btn1:hover{
+    background-color: rgb(120,45,80);
+}
+.featured #btn2:hover{
+    background-color: rgb(120,45,80);
+}
+
+#operatoropen{
+    margin: 10px;
+    height: auto;
+    width:400px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgba(100,100,250,0.4);
+    padding: 10px;
+    color: rgba(150,10,20,0.8);
+   display: none;
+}
+#useropen{
+    margin:10px;
+     height: auto;
+    width:400px;
+    border-color: black;
+    border-radius: 20px;
+    background-color: rgba(100,100,250,0.4);
+    padding: 10px;
+    color: rgba(150,10,20,0.8);
+   //display: none;
+}
+ 
+#operatorsignup{
+    margin: 10px;
+     height: auto;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(100,150,50);
+    padding: 10px;
+    color: rgba(150,10,20,0.8);
+   display: none;
+}
+#usersignup{
+    margin:10px;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(100,150,50);
+    padding: 10px;
+    color: rgba(150,10,20,0.8);
+    display: none;
+}
+#wallet-pass{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: bisque;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.footer{
+     text-align: center;
+}
+@media (min-width: 480px) and (max-width: 768px)
+{
+    
+    .featured .btn{
+        font-size:20px;
+        
+    }
+    .featured{
+        padding-left: 100px;
+        align-content: center;
+    }
+    
+}
+@media (min-width: 768px)
+{
+    .featured{
+        padding-left: 50px;
+        margin-left: 300px;
+    }
+}
